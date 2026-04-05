@@ -9,7 +9,6 @@ body{
 }
 
 .main-container{
-    width: 95%;
     margin: auto;
 }
 
@@ -22,19 +21,19 @@ body{
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: 5%;
 }
 
 .container3{
-    /* display: none; */
+    display: none;
     position: absolute;
     top: 26%;
     left: 40%;
 }
 
 textarea{
-    box-shadow: 10px 10px 24px 0 rgba(0, 0, 0, 0.7);
+    box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.7);
     outline: none;
     border: none;
     width: 275px;
