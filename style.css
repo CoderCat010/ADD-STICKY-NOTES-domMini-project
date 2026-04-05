@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #c68c53a8 !important;
+    font-family: "Architects Daughter", cursive !important;
+}
+
+.main-container{
+    width: 95%;
+    margin: auto;
+}
+
+.createNotes{
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+.container2{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.container3{
+    /* display: none; */
+    position: absolute;
+    top: 26%;
+    left: 40%;
+}
+
+textarea{
+    box-shadow: 10px 10px 24px 0 rgba(0, 0, 0, 0.7);
+    outline: none;
+    border: none;
+    width: 275px;
+    height: 275px;
+    padding: 40px 25px 25px 25px;
+}
+
+#checkBtn, #crossBtn{
+    color: grey;
+    position: absolute;
+    cursor: pointer;
+}
+
+#checkBtn{
+    right: 17%;
+    top: 5%;
+    font-size: 20px;
+    color: green;
+}
+
+#crossBtn{
+    right: 5%;
+    top: 5%;
+    font-size: 20px;
+    color: red;
+}
