@@ -10,6 +10,7 @@
 
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 
     <!-- font family -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,11 +21,36 @@
 <body>
     
     <div class="main-container">
-        <div ></div>
+        <!-- 
+        create sticky notes button container 
+        -->
+        <div class="createNotes">
+            <button id="createNote" class="btn btn-warning">Create Note</button>
+        </div>
 
-        <div></div>
+        <!--
+         all sticky notes collections
+        -->
+        <div class="container2">
+        </div>
 
-        <div></div>
+        <!-- 
+        add new sticky notes 
+        -->
+        <div class="container3">
+            <form>
+                <!-- write notes -->
+                <textarea id="noteText" placeholder="Write Note..." maxlength="90">
+                </textarea>
+
+                <!-- check button -->
+                <i id="checkBtn" class="bi bi-check-circle"></i>
+
+                <!-- cross button -->
+                <i id="crossBtn" class="bi bi-x-circle"></i>
+
+            </form>
+        </div>
 
     </div>
 
